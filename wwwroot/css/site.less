@@ -1,0 +1,53 @@
+@bgcolor: #129;
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+	background-color: @bgcolor;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.2em;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.nav {
+    font-size: 2em;
+}
+
+h1 {
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+#message {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Carousel */
+.carousel-caption {
+    z-index: 10 !important;
+}
+
+    .carousel-caption p {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+@media (min-width: 768px) {
+    .carousel-caption {
+        z-index: 10 !important;
+    }
+}

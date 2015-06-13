@@ -1,0 +1,13 @@
+{
+  "name": "oscdo",
+  "version": "0.0.0",
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-shell": "^0.4.2",
+    "gulp-watch": "^4.2.4",
+    "rimraf": "2.2.8"
+  }
+}
